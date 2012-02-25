@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Site Title</title>
+    <link>http://sitelink.com/</link>
+    <description>Site Description.</description>
+    <language>en-us</language>
+    <pubDate>Thur, 25 May 2006 09:00:00 GMT-5</pubDate>
+    
+    <lastBuildDate>Thur, 25 May 2006 10:00:00 GMT-5</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <generator>Hand Coded</generator>
+    <managingEditor>you@sitelink.com</managingEditor>
+    <webMaster>webmaster@sitelink.com</webMaster>
+    
+    <item>
+      <title>Sample Title</title>
+      <link>http://sitelink.com/story_link.html</link>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum dolor. Curabitur urna. Aliquam fringilla eros at ligula. Donec ultrices velit ultricies mi. Etiam ut lacus nec erat pulvinar vestibulum. In quis lacus. Integer placerat tincidunt arcu. Vivamus euismod. Curabitur hendrerit suscipit magna. Suspendisse odio.</description>
+      <pubDate>Thur, 25 May 2006 09:00:00 GMT-5</pubDate>
+    </item>
+ </channel>
+</rss>

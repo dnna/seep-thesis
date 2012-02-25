@@ -1,0 +1,14 @@
+Reading Configuration... Done
+Connecting to local database... Done
+Connecting to eclass database... Done
+Establishing lock... Done
+Finding the current semester: 1
+Loading Expert System Files... Done
+Getting lab days/hours from the Database... Done
+Getting lab info from the Database... Done
+Getting registered students from the Database... Done
+Running the Expert System for registration priority 9...
+Done
+Removing the old student preferences from database... Done
+Marking this lottery as executed... Done
+Removing the lock... Done

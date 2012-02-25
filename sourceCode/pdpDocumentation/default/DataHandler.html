@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class DataHandler</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class DataHandler</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Ασχολείται με λειτουργίες ανάκτησης/αποθήκευσης δεδομένων σε χαμηλό επίπεδο.</p>
+<p class="description"><p>Είναι singleton, δηλαδή μπορεί να υπάρχει μόνο ένα αντικείμενο αυτής της  κλάσης σε μια δεδομένη στιγμή, και μπορεί να ανακτηθεί με τη στατικη μέθοδο  get.</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Dimosthenis Nikoudis &lt;<a href="mailto:dnna@dnna.gr">dnna@dnna.gr</a>&gt;</li>
+				<li><span class="field">abstract:</span> </li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_DataHandler.php.html">/DataHandler.php</a> (line <span class="field">10</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+												<div class="var-title">
+					static <span class="var-type"><a href="../default/DataHandler.html">DataHandler</a></span>
+					<a href="#$datahandler" title="details" class="var-name">$datahandler</a>
+				</div>
+																							</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																												<div class="method-definition">
+					static 						<span class="method-result"><a href="../default/DataHandler.html">DataHandler</a></span>
+										<a href="#get" title="details" class="method-name">get</a>
+										()
+									</div>
+																																																																																																																																																																																																																																																								
+												<div class="method-definition">
+											<span class="method-result">DataHandler</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#authenticateUser" title="details" class="method-name">authenticateUser</a>
+											(<span class="var-type">String</span>&nbsp;<span class="var-name">$username</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$password</span>)
+									</div>
+																								<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getAllocatedLabs" title="details" class="method-name">getAllocatedLabs</a>
+											([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$lotteryID</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$labID</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getCourseBreakdownTable" title="details" class="method-name">getCourseBreakdownTable</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$lotID</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getCurrentPreferences" title="details" class="method-name">getCurrentPreferences</a>
+											(<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getCurrentSemester" title="details" class="method-name">getCurrentSemester</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getDays" title="details" class="method-name">getDays</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getFailedCourseBreakdownTable" title="details" class="method-name">getFailedCourseBreakdownTable</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$lotID</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getFailedCourseStudent" title="details" class="method-name">getFailedCourseStudent</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$lotID</span>, <span class="var-type">Array</span>&nbsp;<span class="var-name">$courseID</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getFailedRegistrationsCourses" title="details" class="method-name">getFailedRegistrationsCourses</a>
+											([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$lotteryID</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getFailedRegistrationsLabs" title="details" class="method-name">getFailedRegistrationsLabs</a>
+											([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$lotteryID</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$labID</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">Επιστρέφει</span>
+										<a href="#getFirstPriorityCount" title="details" class="method-name">getFirstPriorityCount</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getLabBreakdownTable" title="details" class="method-name">getLabBreakdownTable</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$lotID</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$courseID</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getLabs" title="details" class="method-name">getLabs</a>
+											([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$courseTaughtSemester</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getLatestLotID" title="details" class="method-name">getLatestLotID</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getLessons" title="details" class="method-name">getLessons</a>
+											([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$courseTaughtSemester</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$courseType</span> = <span class="var-default">'Εργαστήριο'</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getLessonsWithInfo" title="details" class="method-name">getLessonsWithInfo</a>
+											([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$courseTaughtSemester</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$courseType</span> = <span class="var-default">'Εργαστήριο'</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getLotteries" title="details" class="method-name">getLotteries</a>
+											([<span class="var-type">String</span>&nbsp;<span class="var-name">$context</span> = <span class="var-default">'all'</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$lotID</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getPreferenceBreakdownTable" title="details" class="method-name">getPreferenceBreakdownTable</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$lotID</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getRegisteredStudents" title="details" class="method-name">getRegisteredStudents</a>
+											(<span class="var-type">String</span>&nbsp;<span class="var-name">$labID</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getRegistrationPriorities" title="details" class="method-name">getRegistrationPriorities</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getTeacherDetails" title="details" class="method-name">getTeacherDetails</a>
+											([<span class="var-type">String</span>&nbsp;<span class="var-name">$teacherID</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getTeacherResponsibleCourses" title="details" class="method-name">getTeacherResponsibleCourses</a>
+											(<span class="var-type">String</span>&nbsp;<span class="var-name">$teacherID</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getTheories" title="details" class="method-name">getTheories</a>
+											([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$courseTaughtSemester</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getTypicalSemester" title="details" class="method-name">getTypicalSemester</a>
+											(<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#lotteryInProgress" title="details" class="method-name">lotteryInProgress</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#registerOldStudent" title="details" class="method-name">registerOldStudent</a>
+											(<span class="var-type">String</span>&nbsp;<span class="var-name">$studAM</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#updateLabParameters" title="details" class="method-name">updateLabParameters</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$updatesArray</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#updateLotteries" title="details" class="method-name">updateLotteries</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$updatesArray</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#updatePreferences" title="details" class="method-name">updatePreferences</a>
+											(<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$updatesArray</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#updateRegistrationPriorities" title="details" class="method-name">updateRegistrationPriorities</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$updatesArray</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#withdrawFromLab" title="details" class="method-name">withdrawFromLab</a>
+											(<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$labID</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$datahandler" id="$datahandler"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type"><a href="../default/DataHandler.html">DataHandler</a></span>
+			<span class="var-name">$datahandler</span>
+						(line <span class="line-number">15</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Το instance της κλάσης.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodget" id="get"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method get</span> (line <span class="line-number">30</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Αυτή η στατική μέθοδος επιστρέφει το instance της κλάσης, ή το  δημιουργεί, αν αυτό δεν υπάρχει.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Το instance της κλάσης.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result"><a href="../default/DataHandler.html">DataHandler</a></span>
+		<span class="method-name">
+			get
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">23</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Αρχικοποιεί υπολογίζοντας το τρέχων εξάμηνο, δημιουργώντας σύνδεση με  την αποθήκη δεδομένων, αν αυτό χρειάζεται κ.τ.λ. Αν υπάρξει τεχνικό  πρόβλημα ρίχνει DataHandlerException με κωδικό 10001.</p>
+<p class="description"><p>Είναι protected για να μην μπορεί να αρχικοποιηθεί εκτός κλάσης.</p></p>
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">DataHandler</span>
+		<span class="method-name">
+			__construct
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodauthenticateUser" id="authenticateUser"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">authenticateUser</span> (line <span class="line-number">54</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιχειρεί να αυθεντικοποιήσει τον χρήστη με το username και password που</p>
+<p class="description"><p>δίνονται. Αν πετύχει τότε επιστρέφει έναν associative πίνακα με τα  διάφορα στοιχεία του χρήστη. Αν δεν πετύχει τότε επιστρέφει false. Σε  περίπτωση που υπάρξει τεχνικό πρόβλημα ρίχνει DataHandlerException με  κωδικό 10003.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει ένα associative array με πληροφορίες για τον  χρήστη αν αυθεντικοποιηθεί, ή boolean false αν αποτύχει.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			authenticateUser
+		</span>
+					(<span class="var-type">String</span>&nbsp;<span class="var-name">$username</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$password</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$username</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$password</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetAllocatedLabs" id="getAllocatedLabs"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getAllocatedLabs</span> (line <span class="line-number">261</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει τα τμήματα στα οποία κληρώθηκαν φοιτητές.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει έναν δισδιάστατο πίνακα όπου η μια διάσταση  είναι ένας αριθμιτικός δείκτης και η άλλη είναι associative array με  τον αριθμό μητρώου του φοιτητή (studAM), την ημερομηνία κλήρωσης  (lotDate), τον κωδικό του τμήματος (labID), την ώρα έναρξης και λήξης  (ttime) και το όνομα της ημέρας που διδάσκεται αυτό το εργαστήριο  (dayName).</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getAllocatedLabs
+		</span>
+					([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$lotteryID</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$labID</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$AM</span><span class="var-description">: Επιστρέφει τα κληρωθέντα τμήματα μόνο για τον  φοιτητή με τον συγκεκριμένο αριθμό μητρώου. Αν είναι null τότε δεν  γίνεται φιλτράρισμα με βάση τον φοιτητή.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$lotteryID</span><span class="var-description">: Επιστρέφει τα κληρωθέντα τμήματα μόνο για την  συγκεκριμένη κλήρωση. Αν είναι null τότε δεν γίνεται φιλτράρισμα με βάση  την κλήρωση.</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$labID</span><span class="var-description">: Επιστρέφει τους κληρωθέντες φοιτητές για το  συγκεκριμένο τμήμα. Αν είναι null τότε δεν γίνεται φιλτράρισμα με  βάση το τμήμα.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetCourseBreakdownTable" id="getCourseBreakdownTable"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCourseBreakdownTable</span> (line <span class="line-number">446</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Δημιουργεί και επιστρεφει έναν πίνακα που περιέχει στατιστικά στοιχεία  σχετικά με τα αποτελέσματα μιας κλήρωσης. Τα στατιστικά είναι χωρισμένα  ανα εργαστηριακο μάθημα πχ. Τεχνητή Νοημοσυνη, Μεταγλωττιστές κτλ.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει τον πίνακα με τα στατιστικα ανα εργαστηριακό  μάθημα.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getCourseBreakdownTable
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$lotID</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$lotID</span><span class="var-description">: Η κλήρωση για την οποία θα συλλεχθούν τα στατιστικά.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetCurrentPreferences" id="getCurrentPreferences"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCurrentPreferences</span> (line <span class="line-number">178</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει έναν πίνακα με τις προτιμήσεις του δοθέντα φοιτητή.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει ένα μονοδιάστατο associative array, με τα  ονόματα των δεικτών να είναι κωδικοί εργαστηριακών τμημάτων και τα  περιεχόμενα να είναι οι αντίστοιχες προτιμήσεις για αυτά τα τμήματα.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getCurrentPreferences
+		</span>
+					(<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$AM</span><span class="var-description">: Ο αριθμός μητρώου του φοιτητή.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetCurrentSemester" id="getCurrentSemester"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCurrentSemester</span> (line <span class="line-number">207</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Υπολογίζει και επιστρέφει το τρέχων εξάμηνο. Μετά την πρώτη κλήση της  μεθόδου η τιμή αποθηκεύεται και στις μεταγενέστερες κλήσεις απλά  επιστρέφεται, χωρίς καμία επικοινωνία με την αποθήκη δεδομένων.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Το τρέχων εξάμηνο.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getCurrentSemester
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetDays" id="getDays"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getDays</span> (line <span class="line-number">61</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει τα ID και τα ονόματα των ημερών της εβδομάδας.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Numeric array με τα ID και τα ονόματα των ημερών της  εβδομάδας. Χρησιμοποιείται για τη σύνθεση του ωρολογίου προγράμματος.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getDays
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetFailedCourseBreakdownTable" id="getFailedCourseBreakdownTable"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getFailedCourseBreakdownTable</span> (line <span class="line-number">415</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Δημιουργεί και επιστρεφει έναν πίνακα που περιέχει στατιστικά στοιχεία  σχετικά με τους σπουδαστές που δεν γραφτηκαν σε κανένα εργαστηριακό  τμήμα σε τουλάχιστον ένα μάθημα.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει τον πίνακα με τους σπουδαστές που δεν γραφτηκαν.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getFailedCourseBreakdownTable
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$lotID</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$lotID</span><span class="var-description">: Η κλήρωση για την οποία θα συλλεχθούν τα στατιστικά.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetFailedCourseStudent" id="getFailedCourseStudent"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getFailedCourseStudent</span> (line <span class="line-number">424</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει τα στοιχεία των σπουδαστών που δεν γράφτηκαν σε κανένα  εργαστηριακό τμήμα ενός μαθήματος.</p>
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getFailedCourseStudent
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$lotID</span>, <span class="var-type">Array</span>&nbsp;<span class="var-name">$courseID</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$lotID</span><span class="var-description">: Η κλήρωση στην οποία οι σπουδαστες δεν γράφτηκαν.</span>			</li>
+					<li>
+				<span class="var-type">Array</span>
+				<span class="var-name">$courseID</span><span class="var-description">: Επιστρέφει έναν πίνακα με τους σπουδαστές που δεν  γράφτηκαν.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetFailedRegistrationsCourses" id="getFailedRegistrationsCourses"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getFailedRegistrationsCourses</span> (line <span class="line-number">311</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει τα μαθήματα στα οποία ο φοιτητής δεν κατάφερα να γραφτεί σε  κανένα τμήμα.</p>
+<p class="description"><p>Πρέπει να σημειωθεί ότι τα δεδομένα που επιστρέφονται από αυτή τη μέθοδο  λειτουργούν μόνο κατά την περίοδο των κληρώσεων, μετά το τέλος της οι  κληρωμένοι φοιτητές μετακινούνται στην κεντρική βάση για πιο μόνιμη  αποθήκευση. Αν η μέθοδος αυτή κληθεί σε άλλη περίοδο επιστρέφει έναν  άδειο πίνακα.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει έναν δισδιάστατο πίνακα όπου η μια διάσταση  είναι ένας αριθμιτικός δείκτης και η άλλη είναι associative array με  τον αριθμό μητρώου του φοιτητή (studAM), την ημερομηνία κλήρωσης  (lotDate), τον κωδικό του μαθήματος (courseID) και το όνομα του  μαθήματος (courseName).</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getFailedRegistrationsCourses
+		</span>
+					([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$lotteryID</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$AM</span><span class="var-description">: Επιστρέφει τα μη κληρωθέντα μαθήματα μόνο για τον  φοιτητή με τον συγκεκριμένο αριθμό μητρώου. Αν είναι null τότε δεν  γίνεται φιλτράρισμα με βάση τον φοιτητή.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$lotteryID</span><span class="var-description">: Επιστρέφει τα μη κληρωθέντα μαθήματα μόνο για την  συγκεκριμένη κλήρωση. Αν είναι null τότε δεν γίνεται φιλτράρισμα με βάση  την κλήρωση.</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$courseID</span><span class="var-description">: Επιστρέφει τους μη κληρωθέντες φοιτητές για το  συγκεκριμένο μάθημα. Αν είναι null τότε δεν γίνεται φιλτράρισμα με  βάση το μάθημα.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetFailedRegistrationsLabs" id="getFailedRegistrationsLabs"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getFailedRegistrationsLabs</span> (line <span class="line-number">286</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει τα τμήματα στα οποία δεν κατάφεραν να κληρωθούν φοιτητές.</p>
+<p class="description"><p>Πρέπει να σημειωθεί ότι τα δεδομένα που επιστρέφονται από αυτή τη μέθοδο  λειτουργούν μόνο κατά την περίοδο των κληρώσεων, μετά το τέλος της οι  κληρωμένοι φοιτητές μετακινούνται στην κεντρική βάση για πιο μόνιμη  αποθήκευση. Αν η μέθοδος αυτή κληθεί σε άλλη περίοδο επιστρέφει έναν  άδειο πίνακα.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει έναν δισδιάστατο πίνακα όπου η μια διάσταση  είναι ένας αριθμιτικός δείκτης και η άλλη είναι associative array με  τον αριθμό μητρώου του φοιτητή (studAM), την ημερομηνία κλήρωσης  (lotDate), τον κωδικό του τμήματος (labID), την ώρα έναρξης και λήξης  (ttime) και το όνομα της ημέρας που διδάσκεται αυτό το εργαστήριο  (dayName).</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getFailedRegistrationsLabs
+		</span>
+					([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$lotteryID</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$labID</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$AM</span><span class="var-description">: Επιστρέφει τα μη κληρωθέντα τμήματα μόνο για τον  φοιτητή με τον συγκεκριμένο αριθμό μητρώου. Αν είναι null τότε δεν  γίνεται φιλτράρισμα με βάση τον φοιτητή.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$lotteryID</span><span class="var-description">: Επιστρέφει τα μη κληρωθέντα τμήματα μόνο για την  συγκεκριμένη κλήρωση. Αν είναι null τότε δεν γίνεται φιλτράρισμα με βάση  την κλήρωση.</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$labID</span><span class="var-description">: Επιστρέφει τους μη κληρωθέντες φοιτητές για το  συγκεκριμένο τμήμα. Αν είναι null τότε δεν γίνεται φιλτράρισμα με  βάση το τμήμα.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetFirstPriorityCount" id="getFirstPriorityCount"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getFirstPriorityCount</span> (line <span class="line-number">187</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει για κάθε εργαστήριο τον αριθμό των φοιτητών που το έχουν  δηλώσει σαν πρώτη προτεραιότητα.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> ένα associative array όπου τα index συμβολίζουν  κωδικούς εργαστηρίων και τα περιεχόμενα των αριθμό των φοιτητών που το  έχουν δηλώσει σαν πρώτη προτεραιότητα.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Επιστρέφει</span>
+		<span class="method-name">
+			getFirstPriorityCount
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetLabBreakdownTable" id="getLabBreakdownTable"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getLabBreakdownTable</span> (line <span class="line-number">436</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Δημιουργεί και επιστρεφει έναν πίνακα που περιέχει στατιστικά στοιχεία  σχετικά με τα αποτελέσματα μιας κλήρωσης. Τα στατιστικά είναι χωρισμένα  ανα εργαστηριακο τμήμα πχ. ΤΝ1, ΤΝ2 κτλ.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει τον πίνακα με τα στατιστικα ανα εργαστηριακό  τμήμα.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getLabBreakdownTable
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$lotID</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$courseID</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$lotID</span><span class="var-description">: Η κλήρωση για την οποία θα συλλεχθούν τα στατιστικά.</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$courseID</span><span class="var-description">: Το μάθημα για το οποίο θα συλλεχθούν τα  στατιστικά.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetLabs" id="getLabs"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getLabs</span> (line <span class="line-number">101</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει ένα δισδιάστατο πίνακα με εργαστηριακά τμήματα και πληροφορίες  για αυτά, φιλτραρισμένα με βάση διάφορες παραμέτρους, οι οποίες μπορούν  να συνδυαστούν. Οι πληροφορίες που περιέχονται αφορούν τη θέση στο  ωρολόγιο πρόγραμμα, τον τύπο, το εξάμηνο στο οποίο διδάσκονται κ.τ.λ.</p>
+<p class="description"><p>και είναι οι εξής:  <ol><li>NAME -&gt; Όνομα του εργαστηριακού τμήματος.</li><li>DAY -&gt; Το ID της ημέρας στην οποία διδάσκεται.</li><li>dayName -&gt; Το όνομα της ημέρας στην οποία διδάσκεται.</li><li>tfrom -&gt; Η ώρα έναρξης του εργαστηρίου.</li><li>tto -&gt; Η ώρα λήξης του εργαστηρίου.</li><li>courseType -&gt; Ο τύπος του μαθήματος (συνήθως &quot;Εργαστήριο&quot;).</li><li>labID -&gt; Ο μοναδικός κωδικός του εργαστηρίακού τμήματος.</li><li>courseID -&gt; Ο μοναδικός κωδικός του μαθήματος στο οποίο ανήκει.</li><li>courseTaughtSemester -&gt; Το εξάμηνο στο οποίο διδάσκεται.</li></ol></p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Δισδιάστατος πίνακας με εργαστηριακά τμήματα και  πληροφορίες που τα αφορούν. Η μια διάσταση είναι απλά ένα αριθμτικό  index, ενώ η άλλη είναι associative array με τις διάφορες πληροφορίες. Η  θέση με δείκτη numStudents περιέχει τον αριθμό των φοιτητών που έχουν  κληρωθεί σε αυτό το εργαστήριο, ή έχουν γραφτεί μόνιμα με κάποιον τρόπο.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getLabs
+		</span>
+					([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$courseTaughtSemester</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$AM</span><span class="var-description">: Επιστροφή μόνο των τμημάτων στα οποία είναι γράμμενος ο  φοιτητής με αυτό τον αριθμό μητρώου. Αν είναι null τότε δεν υπάρχει  φιλτράρισμα με βάση τον αριθμό μητρώου.</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$courseID</span><span class="var-description">: Επιστροφή μόνο των τμημάτων που ανήκουν στο  συγκεκριμένο μάθημα. Αν είναι null τότε δεν υπάρχει φιλτράρισμα με βάση  τον κωδικό μαθήματος.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$courseTaughtSemester</span><span class="var-description">: Επιστροφή μόνο των τμημάτων που ανήκουν  σε μάθημα που διδάσκονται στο συγκεκριμένο εξάμηνο. Αν είναι null τότε  δεν υπάρχει φιλτράρισμα με βάση το εξάμηνο.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetLatestLotID" id="getLatestLotID"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getLatestLotID</span> (line <span class="line-number">241</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει το ID της πιο πρόσφατης κλήρωσης. Όταν ανακτηθεί μια φορά  κρατιέται σε cache για την ελαχιστοποίηση των queries.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Το ID της πιο πρόσφατης κλήρωσης.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getLatestLotID
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetLessons" id="getLessons"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getLessons</span> (line <span class="line-number">169</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει έναν πίνακα με IDs μαθημάτων.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Μονοδιάστατος πίνακας με αριθμιτικούς δείκτες, που περιέχει  ένα ID μαθήματος σε κάθε θέση.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getLessons
+		</span>
+					([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$courseTaughtSemester</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$courseType</span> = <span class="var-default">'Εργαστήριο'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$AM</span><span class="var-description">: Επιστροφή μόνο των μαθημάτων στα οποία είναι γράμμενος ο  φοιτητής με αυτό τον αριθμό μητρώου. Αν είναι null τότε δεν υπάρχει  φιλτράρισμα με βάση τον αριθμό μητρώου.</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$courseID</span><span class="var-description">: Επιστροφή μόνο των μαθημάτων που ανήκουν στο  συγκεκριμένο μάθημα. Αν είναι null τότε δεν υπάρχει φιλτράρισμα με βάση  τον κωδικό μαθήματος.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$courseTaughtSemester</span><span class="var-description">: Επιστροφή μόνο των μαθημάτων που  διδάσκονται στο συγκεκριμένο εξάμηνο. Αν είναι null τότε δεν υπάρχει  φιλτράρισμα με βάση το εξάμηνο.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$courseType</span><span class="var-description">: Ο τύπος του μαθήματος που θέλουμε να ανακτήσουμε  (πχ. Θεωρία, Εργαστήριο). Δεν ισχύει αν το $AM δεν έχει οριστεί.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetLessonsWithInfo" id="getLessonsWithInfo"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getLessonsWithInfo</span> (line <span class="line-number">151</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει έναν πίνακα με IDs μαθημάτων και τα ονόματα τους.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Δισδιάστατος πίνακας με IDs μαθημάτων και ονόματα.  Η μια διάσταση είναι απλά ένα αριθμτικό index, ενώ η άλλη είναι  associative array με τα IDs και τα ονόματα. Στον δείτκη numLabs υπάρχει  ο αριθμός των εργαστηριακών τμημάτων που περιέχει το μάθημα.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getLessonsWithInfo
+		</span>
+					([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$courseTaughtSemester</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$courseType</span> = <span class="var-default">'Εργαστήριο'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$AM</span><span class="var-description">: Επιστροφή μόνο των μαθημάτων στα οποία είναι γράμμενος ο  φοιτητής με αυτό τον αριθμό μητρώου. Αν είναι null τότε δεν υπάρχει  φιλτράρισμα με βάση τον αριθμό μητρώου.</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$courseID</span><span class="var-description">: Επιστροφή μόνο των μαθημάτων που ανήκουν στο  συγκεκριμένο μάθημα. Αν είναι null τότε δεν υπάρχει φιλτράρισμα με βάση  τον κωδικό μαθήματος.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$courseTaughtSemester</span><span class="var-description">: Επιστροφή μόνο των μαθημάτων που  διδάσκονται στο συγκεκριμένο εξάμηνο. Αν είναι null τότε δεν υπάρχει  φιλτράρισμα με βάση το εξάμηνο.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$courseType</span><span class="var-description">: Ο τύπος του μαθήματος που θέλουμε να ανακτήσουμε  (πχ. Θεωρία, Εργαστήριο). Δεν ισχύει αν το $AM δεν έχει οριστεί.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetLotteries" id="getLotteries"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getLotteries</span> (line <span class="line-number">226</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει τα ID και τις ημερομηνίες των κληρώσεων που είναι μέσα  στα πλαίσια της παραμέτρου. Επίσης επιστρέφει αν κάποια/ες από αυτές  είναι αυτή τη στιγμή σε εξέλιξη (δηλαδή τρέχει το σύστημα κληρώσεων για  αυτές).</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει δισδιάστατο πίνακα που περιέχει τα ID, τις  ημερομηνίες των κληρώσεων και το αν αυτές είναι αυτή τη στιγμή σε  εξέλιξη.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getLotteries
+		</span>
+					([<span class="var-type">String</span>&nbsp;<span class="var-name">$context</span> = <span class="var-default">'all'</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$lotID</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$context</span><span class="var-description">: Δηλώνει ποιές κληρώσεις θέλουμε να εμφανίσουμε.  Μπορεί να έχει τις τιμές all, past (ή συνώνυμα το completed) ή future.  Επίσης μπορεί να χρησιμοποιηθεί η τιμή last που επιστρέφει μόνο την  πιο πρόσφατη ολοκληρωμένη κλήρωση.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$lotID</span><span class="var-description">: Μας επιτρέπει να φιλτράρουμε τα αποτελέσματα ώστε να  επιστρέφουν πληροφορίες μόνο για τη συγκεκριμένη κλήρωση με αυτό το  lotID. Χρήσιμο όταν θέλουμε να ανακτήσουμε πληροφορίες (πχ. ημ/νία) για  μια συγκεκριμένη κλήρωση όπου το lotID είναι γνωστό.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetPreferenceBreakdownTable" id="getPreferenceBreakdownTable"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPreferenceBreakdownTable</span> (line <span class="line-number">406</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Δημιουργεί και επιστρεφει έναν πίνακα που περιέχει στατιστικά στοιχεία  σχετικά με τα αποτελέσματα μιας κλήρωσης. Τα στατιστικά είναι χωρισμένα  ανα προτιμήση πχ. επιτυχείς και ανεπιτυχεις εγγραφές για την προτιμήση 1,  την 2 κτλ.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει τον πίνακα με τα στατιστικα ανα προτίμηση.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getPreferenceBreakdownTable
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$lotID</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$lotID</span><span class="var-description">: Η κλήρωση για την οποία θα συλλεχθούν τα στατιστικά.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetRegisteredStudents" id="getRegisteredStudents"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRegisteredStudents</span> (line <span class="line-number">355</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει έναν πίνακα με τους εγγεγραμένους φοιτητές σε ένα εργαστηριακό  τμήμα.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει πίνακα με τα στοιχεία των εγγεγραμένων φοιτητών.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getRegisteredStudents
+		</span>
+					(<span class="var-type">String</span>&nbsp;<span class="var-name">$labID</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$labID</span><span class="var-description">: Ο κωδικός του εργαστηρίου.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetRegistrationPriorities" id="getRegistrationPriorities"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRegistrationPriorities</span> (line <span class="line-number">361</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει τις προτεραιότητες εγγραφής φοιτητών.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει πίνακα με τις προτεραιότητες εγγραφής φοιτητών.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getRegistrationPriorities
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetTeacherDetails" id="getTeacherDetails"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getTeacherDetails</span> (line <span class="line-number">330</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει πληροφορίες για έναν/περισσότερους καθηγητές</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Δισδιάστατο associative array όπου το index της πρώτης  διάστασης είναι τα ID των καθηγητών και η δεύτερη περιέχει τις διάφορες  πληροφορίες.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getTeacherDetails
+		</span>
+					([<span class="var-type">String</span>&nbsp;<span class="var-name">$teacherID</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$teacherID</span><span class="var-description">: Το ID του καθηγητή για το οποίο θα επιστραφούν  πληροφορίες. Αν δεν ορίζεται τότε επιστρέφει για όλους.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetTeacherResponsibleCourses" id="getTeacherResponsibleCourses"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getTeacherResponsibleCourses</span> (line <span class="line-number">320</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει τα μαθήματα για τα οποία είναι υπεύθυνος ένας καθηγητής.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει μονοδιάστατο πίνακα όπου κάθε θέση είναι ένα  courseID μαθήματος.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getTeacherResponsibleCourses
+		</span>
+					(<span class="var-type">String</span>&nbsp;<span class="var-name">$teacherID</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$teacherID</span><span class="var-description">: Το ID του καθηγητή για τον οποίο θα επιστραφούν  τα μαθήματα για τα οποία είναι υπεύθυνος.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetTheories" id="getTheories"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getTheories</span> (line <span class="line-number">131</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει ένα δισδιάστατο πίνακα με τις θεωρίες και πληροφορίες  για αυτές, φιλτραρισμένες με βάση διάφορες παραμέτρους, οι οποίες μπορούν  να συνδυαστούν. Οι πληροφορίες που περιέχονται αφορούν τη θέση στο  ωρολόγιο πρόγραμμα, τον τύπο, το εξάμηνο στο οποίο διδάσκονται κ.τ.λ.</p>
+<p class="description"><p>και είναι οι εξής:  <ol><li>NAME -&gt; Όνομα του μαθήματος.</li><li>DAY -&gt; Το ID της ημέρας στην οποία διδάσκεται.</li><li>dayName -&gt; Το όνομα της ημέρας στην οποία διδάσκεται.</li><li>tfrom -&gt; Η ώρα έναρξης του εργαστηρίου.</li><li>tto -&gt; Η ώρα λήξης του εργαστηρίου.</li><li>courseType -&gt; Ο τύπος του μαθήματος (συνήθως &quot;Θεωρία&quot;).</li><li>courseID -&gt; Ο μοναδικός κωδικός του μαθήματος στο οποίο ανήκει.</li><li>courseTaughtSemester -&gt; Το εξάμηνο στο οποίο διδάσκεται.</li></ol></p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Δισδιάστατος πίνακας με θεωρίες και φροντιστήρια και  πληροφορίες που τα αφορούν. Η μια διάσταση είναι απλά ένα αριθμτικό  index, ενώ η άλλη είναι associative array με τις διάφορες πληροφορίες.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getTheories
+		</span>
+					([<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$courseTaughtSemester</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$AM</span><span class="var-description">: Επιστροφή μόνο των θεωριών στα οποία είναι γράμμενος ο  φοιτητής με αυτό τον αριθμό μητρώου. Αν είναι null τότε δεν υπάρχει  φιλτράρισμα με βάση τον αριθμό μητρώου.</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$courseID</span><span class="var-description">: Επιστροφή μόνο των θεωριών που ανήκουν στο  συγκεκριμένο μάθημα. Αν είναι null τότε δεν υπάρχει φιλτράρισμα με βάση  τον κωδικό μαθήματος.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$courseTaughtSemester</span><span class="var-description">: Επιστροφή μόνο των θεωριών που  διδάσκονται στο συγκεκριμένο εξάμηνο. Αν είναι null τότε δεν υπάρχει  φιλτράρισμα με βάση το εξάμηνο.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetTypicalSemester" id="getTypicalSemester"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getTypicalSemester</span> (line <span class="line-number">68</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει το τυπικό εξάμηνο του φοιτητή με τον δοθέντα αριθμό μητρώου.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Το τυπικό εξάμηνο του φοιτητή.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getTypicalSemester
+		</span>
+					(<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$AM</span><span class="var-description">: Ο αριθμός μητρώου του φοιτητή.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodlotteryInProgress" id="lotteryInProgress"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">lotteryInProgress</span> (line <span class="line-number">234</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Ελέγχει αν υπάρχει κλήρωση σε εξέλιξη. Αν υπάρχει τότε επιστρέφει true,  αλλά δεν δίνει πληροφορία για το ποιά κλήρωση είναι αυτή.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει true αν υπάρχει κλήρωση σε εξέλιξη ή false  αν δεν υπάρχει.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			lotteryInProgress
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodregisterOldStudent" id="registerOldStudent"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">registerOldStudent</span> (line <span class="line-number">396</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Γράφει έναν παλαιό φοιτητή στο τμήμα παλαιών.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει true αν η ενημέρωση έγινε με επιτυχία ή false  αν υπήρξε κάποιο σφάλμα.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			registerOldStudent
+		</span>
+					(<span class="var-type">String</span>&nbsp;<span class="var-name">$studAM</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$studAM</span><span class="var-description">: Ο αριθμός μητρώου του φοιτητή.</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$courseID</span><span class="var-description">: Το μάθημα στο θέλει να εγγραφεί ως παλαιός  φοιτητής.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodupdateLabParameters" id="updateLabParameters"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">updateLabParameters</span> (line <span class="line-number">339</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Αλλάζει τις παραμέτρους ενός εργαστηριακού τμήματος.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει true αν η ενημέρωση έγινε με επιτυχία ή false  αν υπήρξε κάποιο σφάλμα.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			updateLabParameters
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$updatesArray</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$updatesArray</span><span class="var-description">: updatesArray Δισδιάστατος πίνακας όπου η μια διάσταση έχει  labID και η άλλη τα διάφορα πεδία που θα ενημερωθούν.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodupdateLotteries" id="updateLotteries"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">updateLotteries</span> (line <span class="line-number">386</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Ενημερώνει την αποθήκη δεδομένων για τις αλλαγές στην κατάσταση των</p>
+<p class="description"><p>κληρώσεων και δημιουργεί τα κατάλληλα scheduled tasks ή cron jobs. Οι  αλλαγές δίνονται από έναν πίνακα αλλαγών. Αν υπάρξει σφάλμα στην  ενημέρωση της κατάστασης κληρώσεων τότε ρίχνει DataHandlerException με  κωδικό 10010.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει true αν η ενημέρωση έγινε με επιτυχία ή false  αν υπήρξε κάποιο σφάλμα.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			updateLotteries
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$updatesArray</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$updatesArray</span><span class="var-description">: Δισδιάστατος πίνακας όπου η μια διάσταση έχει  prId και η άλλη τα διάφορα πεδία που θα ενημερωθούν. Σε περίπτωση  προσθήκης το rpId αγνοείται.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodupdatePreferences" id="updatePreferences"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">updatePreferences</span> (line <span class="line-number">199</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Ενηερώνει την αποθήκη δεδομένων με τις αλλαγές που δίνονται από έναν  πίνακα αλλαγών. Αν υπάρξει σφάλμα στην ενημέρωση των προτιμήσεων τότε  ρίχνει DataHandlerException με κωδικό 10004.</p>
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			updatePreferences
+		</span>
+					(<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$updatesArray</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$AM</span><span class="var-description">: Ο αριθμός μητρώου του φοιτητή για τον οποίο γίνεται η  ενημέρωση.</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$updatesArray</span><span class="var-description">: Ο πίνακας ενημερώσεων. Είναι μονοδιάστατο  associative array με δείκτες τους κωδικούς των εργαστηριακών τμημάτων και  περιεχόμενα τις προτιμήσεις για τα αντίστοιχα τμήματα.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodupdateRegistrationPriorities" id="updateRegistrationPriorities"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">updateRegistrationPriorities</span> (line <span class="line-number">372</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Ενηερώνει την αποθήκη δεδομένων με τις αλλαγές που δίνονται από έναν  πίνακα αλλαγών. Αν υπάρξει σφάλμα στην ενημέρωση των προτεραιοτήτων τότε  ρίχνει DataHandlerException με κωδικό 10009.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει true αν η ενημέρωση έγινε με επιτυχία ή false  αν υπήρξε κάποιο σφάλμα.</li>
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			updateRegistrationPriorities
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$updatesArray</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$updatesArray</span><span class="var-description">: Δισδιάστατος πίνακας όπου η μια διάσταση έχει  prId και η άλλη τα διάφορα πεδία που θα ενημερωθούν.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwithdrawFromLab" id="withdrawFromLab"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">withdrawFromLab</span> (line <span class="line-number">347</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Διαγράφει τον φοιτητή από το συγκεκριμένο κληρωμένο εργαστήριο. Αν  υπάρξει τεχνικό πρόβλημα ρίχνει DataHandlerException με κωδικό 10005.</p>
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			withdrawFromLab
+		</span>
+					(<span class="var-type">String</span>&nbsp;<span class="var-name">$AM</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$labID</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$AM</span><span class="var-description">: Ο αριθμός μητρώου του φοιτητή.</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$labID</span><span class="var-description">: Ο κωδικός του εργαστηρίου.</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sat, 09 Apr 2011 17:10:20 +0300 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

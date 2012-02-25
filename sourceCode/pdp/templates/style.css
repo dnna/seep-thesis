@@ -1,0 +1,178 @@
+body {margin:0;padding:0;background:#fff;color:#000;font:70% Arial,Helvetica,sans-serif;}
+h1 {margin:0;padding:0;font-size:2em}
+h2 {margin:0;padding:0;font-size:1.75em}
+h3 {margin:0;padding:0;font-size:1.5em}
+a {background:inherit;color:#333;text-decoration:none;font-weight:bold}
+a:hover {background:inherit;color:#f60;text-decoration:underline}
+select {font-size:80%;}
+#blur {color:inherit;margin:8px 3px 3px 8px;background:#ccc;min-width:995px}
+#shadow,#mainbody {position:relative;bottom:3px;right:3px}
+#shadow {color:inherit;background:#666}
+#mainbody {color:#000;border:1px solid #000;background:#fff}
+#header {text-align:center;color:#333;padding:0.5em 0.5em 1em;background:#E6E7FF;min-height:100px;}
+.navigation {font-size:0.9em;text-align:center;color:#777;border-bottom:1px solid #000;border-top:1px solid #000;margin:0 0 1em;background:#999}
+.navigation a {color:#fff;text-decoration:none;font-weight:bold;padding:0.75em;border:1px solid #000;background:#333}
+.navigation a:hover {color:#f60;text-decoration:underline;border:1px solid #555;background:#fff}
+.navigation .curPage {color:#000;text-decoration:underline;font-style:italic;font-weight:bold;padding:0.75em;border:1px solid #000;background:#fff}
+#leftcolumn {width:20%;position:relative;float:left}
+#rightcolumn {width:80%;margin:0 0 0 20%;border-left:1px solid #ccc;}
+#separator {outline:none;float:left;width:15px;height: 300px;margin-left:1px;background-image:url('images/sidebar-arrows/left.jpg')}
+#content {text-align:center}
+.note {margin-left:5%;text-align:left;font-size:xx-small;}
+.sectiontitle {margin:0 0.5em;padding:0;font-size:1.5em}
+.sectioncontent {margin:0 0.5em 0.5em;padding:0.5em;font-size:1em}
+.subsectiontitle {margin:0 1.5em;padding:0;font-size:1.5em}
+.subsectioncontent {margin:0 2em 0.5em;padding:0.5em;font-size:1em}
+.l_sectionimage {border:0;margin:4px 4px 0 0;float:left;background:#eee;color:inherit}
+.r_sectionimage {border:0;margin:4px 0 0 4px;float:right;background:#eee;color:inherit}
+#footer {text-align:right;background:#E6E7FF;color:#555;border-top:1px solid #555;padding:0.5em}
+.logo {position:absolute;right:1%;text-align:center;}
+.login {position:absolute;left:1%;margin:0;padding:0.25em;padding-top:0;font-size:1.2em;float:left;border:1px solid;min-width:19.5em}
+.login label{width:7em;float:left;text-align:center;margin-right:0.5em;display:block}
+.login input{width:12em;float:left;text-align:left;margin-right:0.5em;display:block;margin-bottom:0.5em}
+.login .submit input{width:20.5em;text-align:center;padding-bottom:0;margin-bottom:0.2em}
+#pagetitle {font-size:2em;font-weight:bold;margin:0;padding:0;font-size:1.8em}
+
+/* Sortable tables */
+table.tablesorter th.header {
+    background-image: url('images/sort-arrows/arrow-none.gif');
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-left: 20px;
+    border-right: 1px solid #dad9c7;
+    margin-left: -1px;
+	text-decoration: underline;
+}
+table.tablesorter th.headerSortDown {
+    background-image: url('images/sort-arrows/arrow-up.gif');
+	background-position: center right;
+    background-color: #C8C9E1;
+}
+table.tablesorter th.headerSortUp { 
+    background-image: url('images/sort-arrows/arrow-down.gif');
+	background-position: center right;
+    background-color: #C8C9E1;
+}
+table.tablesorter a img {
+	border: 0;
+}
+
+table.prefTable {
+	margin-left:auto; margin-right:auto;
+	text-align:center;
+	border-collapse: collapse;
+	empty-cells:show;
+	width:95%;
+	height:95%;
+}
+table.prefTable th {
+	background-color: #E6E7FF;
+	border-width: 2px 2px 2px 2px;
+	padding: 4px 4px 4px 4px;
+	border-style: solid solid solid solid;
+	border-color: black black black black;
+}
+table.prefTable tr { }
+table.prefTable td {
+	border-width: 2px 2px 2px 2px;
+	padding: 0px 0px 0px 0px;
+	border-style: solid solid solid solid;
+	border-color: black black black black;
+	width:15%;
+}
+table.prefTable td.hours {
+	background-color: #E6E7FF;
+	font-weight: bold; 
+	width:3%;
+}
+
+#leftcolumn .choice {
+	background-color: #FFF4D4;
+	border-width: 1px 1px 1px 1px;
+	padding: 4px 4px 4px 4px;
+	border-style: solid solid solid solid;
+	border-color: black;
+	text-align:center;
+}
+#leftcolumn .choiceHighlighted {
+	background-color: #D2F0A3;
+	border-width: 1px 1px 1px 1px;
+	padding: 4px 4px 4px 4px;
+	border-style: solid solid solid solid;
+	border-color: black;
+	text-align:center;
+}
+#leftcolumn .curChoice {
+	background-color: #FFE6E6;
+	border-width: 1px 1px 1px 1px;
+	padding: 4px 4px 4px 4px;
+	border-style: solid solid solid solid;
+	border-color: black;
+	text-align:center;
+}
+
+
+.invalid {
+	background-color: #FFE6E6;
+	border-width: 1px 1px 1px 1px;
+	padding: 4px 4px 4px 4px;
+	border-style: solid solid solid solid;
+	border-color: black;
+	text-align:center;
+        margin-left:auto; margin-right:auto;
+        width:95%;
+}
+.valid {
+	background-color: #D2F0A3;
+	border-width: 1px 1px 1px 1px;
+	padding: 4px 4px 4px 4px;
+	border-style: solid solid solid solid;
+	border-color: black;
+	text-align:center;
+        margin-left:auto; margin-right:auto;
+        width:95%;
+}
+.warning {
+	background-color: #FFF4D4;
+	border-width: 1px 1px 1px 1px;
+	padding: 4px 4px 4px 4px;
+	border-style: solid solid solid solid;
+	border-color: black;
+	text-align:center;
+        margin-left:auto; margin-right:auto;
+        width:95%;
+}
+.invalidBackground {
+	background-color: #FFE6E6;
+	padding: 4px 4px 4px 4px;
+}
+.validBackground {
+	background-color: #D2F0A3;
+	padding: 4px 4px 4px 4px;
+}
+.warningBackground {
+	background-color: #FFF4D4;
+	padding: 4px 4px 4px 4px;
+}
+.theoryBackground {
+	background-color: #E6E7FF;
+	padding: 4px 4px 4px 4px;
+}
+
+.theory {
+	background-color: #E6E7FF;
+	border-width: 1px 1px 1px 1px;
+	padding: 4px 4px 4px 4px;
+	border-style: solid solid solid solid;
+	border-color: black;
+	text-align:center;
+}
+.lab {
+	background-color: #FFF4D4;
+	border-width: 1px 1px 1px 1px;
+	padding: 4px 4px 4px 4px;
+	border-style: solid solid solid solid;
+	border-color: black;
+	text-align:center;
+}

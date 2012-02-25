@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class ScheduleEntryLab</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class ScheduleEntryLab</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Δομή που περιέχει πληροφορίες ένα εργαστήριο. Χρησιμοποιείται στην παραγωγή  πινάκων και λιστών που έχουν να κάνουν με το ωρολόγιο πρόγραμμα και καθορίζει  παραμέτρους όπως τον τρέχων και μέγιστο αριθμό φοιτητών του εργαστηρίου.</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Dimosthenis Nikoudis &lt;<a href="mailto:dnna@dnna.gr">dnna@dnna.gr</a>&gt;</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_ScheduleEntryLab.php.html">/ScheduleEntryLab.php</a> (line <span class="field">8</span>)
+		</p>
+		
+				
+		<pre><a href="../default/ScheduleEntry.html">ScheduleEntry</a>
+   |
+   --ScheduleEntryLab</pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																																																								<div class="var-title">
+					<span class="var-type">bool</span>
+					<a href="#$allocatedToThis" title="details" class="var-name">$allocatedToThis</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">int</span>
+					<a href="#$firstPriorityCount" title="details" class="var-name">$firstPriorityCount</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">String</span>
+					<a href="#$labID" title="details" class="var-name">$labID</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">String</span>
+					<a href="#$labName" title="details" class="var-name">$labName</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">int</span>
+					<a href="#$maxStudents" title="details" class="var-name">$maxStudents</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">int</span>
+					<a href="#$numStudents" title="details" class="var-name">$numStudents</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">boolean</span>
+					<a href="#$oldStudents" title="details" class="var-name">$oldStudents</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																												
+												<div class="method-definition">
+											<span class="method-result">ScheduleEntryLab</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											(<span class="var-type">String</span>&nbsp;<span class="var-name">$courseName</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$courseType</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$labName</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$labID</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$teacherID</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$teacherName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$oldStudents</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$allocatedToThis</span> = <span class="var-default">0</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$numStudents</span> = <span class="var-default">0</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$maxStudents</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$firstPriorityCount</span> = <span class="var-default">0</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getCurStudents" title="details" class="method-name">getCurStudents</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getFirstPriorityCount" title="details" class="method-name">getFirstPriorityCount</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">String</span>
+										<a href="#getlabID" title="details" class="method-name">getlabID</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">String</span>
+										<a href="#getLabName" title="details" class="method-name">getLabName</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getMaxStudents" title="details" class="method-name">getMaxStudents</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getNumStudents" title="details" class="method-name">getNumStudents</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">bool</span>
+										<a href="#isallocatedToThis" title="details" class="method-name">isallocatedToThis</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">String</span>
+										<a href="#isForOldStudents" title="details" class="method-name">isForOldStudents</a>
+										()
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$allocatedToThis" id="$allocatedToThis"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">bool</span>
+			<span class="var-name">$allocatedToThis</span>
+						(line <span class="line-number">31</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Δείχνει αν ο φοιτητής έχει κληρωθεί σε αυτό το εργαστήριο</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$firstPriorityCount" id="$firstPriorityCount"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$firstPriorityCount</span>
+						(line <span class="line-number">36</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Ο αριθμός φοιτητών που έχει δηλώσει το εργαστήριο σαν πρώτη  προτεραιότητα.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$labID" id="$labID"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">String</span>
+			<span class="var-name">$labID</span>
+						(line <span class="line-number">17</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Ο μοναδικός κωδικός του τμήματος (αν η εγγραφή αφορά  εργαστήριο)</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$labName" id="$labName"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">String</span>
+			<span class="var-name">$labName</span>
+						(line <span class="line-number">12</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Το όνομα του εργαστηριακού τμήματος</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$maxStudents" id="$maxStudents"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$maxStudents</span>
+						(line <span class="line-number">27</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Δείχνει τον μέγιστο αριθμό φοιτητών που δέχεται αυτό το  εργαστήριο</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$numStudents" id="$numStudents"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$numStudents</span>
+						(line <span class="line-number">22</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Δείχνει τον αριθμό των φοιτητών που έχουν κληρωθεί ή γραφτεί  στο εργαστήριο</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$oldStudents" id="$oldStudents"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">boolean</span>
+			<span class="var-name">$oldStudents</span>
+						(line <span class="line-number">40</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Δείχνει αν πρόκειται για τμήμα παλαιών φοιτητών.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+							<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../default/ScheduleEntry.html">ScheduleEntry</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/ScheduleEntry.html#var$color">ScheduleEntry::$color</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/ScheduleEntry.html#var$courseID">ScheduleEntry::$courseID</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/ScheduleEntry.html#var$courseName">ScheduleEntry::$courseName</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/ScheduleEntry.html#var$courseType">ScheduleEntry::$courseType</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/ScheduleEntry.html#var$teacherID">ScheduleEntry::$teacherID</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/ScheduleEntry.html#var$teacherName">ScheduleEntry::$teacherName</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">59</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Αρχικοποιεί την δομή με τις σχετικές παραμέτρους.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">ScheduleEntryLab</span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type">String</span>&nbsp;<span class="var-name">$courseName</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$courseType</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$courseID</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$labName</span>, <span class="var-type">String</span>&nbsp;<span class="var-name">$labID</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$teacherID</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$teacherName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$oldStudents</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$allocatedToThis</span> = <span class="var-default">0</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$numStudents</span> = <span class="var-default">0</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$maxStudents</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$firstPriorityCount</span> = <span class="var-default">0</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$courseName</span><span class="var-description">: Το όνομα του μαθήματος</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$courseType</span><span class="var-description">: Ο τύπος του μαθήματος  (Θεωρία, Εργαστήριο ή Φροντιστήριο)</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$courseID</span><span class="var-description">: Ο μοναδικός κωδικός του μαθήματος</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$labName</span><span class="var-description">: Το όνομα του εργαστηριακού τμήματος</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$labID</span><span class="var-description">: Ο μοναδικός κωδικός του τμήματος (αν η εγγραφή  αφορά εργαστήριο)</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$allocatedToThis</span><span class="var-description">: Δείχνει αν ο φοιτητής έχει κληρωθεί σε  αυτό το τμήμα. Τιμές: 0 Όχι, 1 Έχει κληρωθεί (στην εσωτερική βάση),  2 Έχει γραφτεί (στην μόνιμη βάση).</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$numStudents</span><span class="var-description">: Ο τρέχων αριθμός φοιτητών που έχουν κληρωθεί ή  γραφτεί σε αυτό το τμήμα.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$maxStudents</span><span class="var-description">: μέγιστο αριθμό φοιτητών που επιτρέπεται σε αυτό  το τμήμα.</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$teacherID</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$teacherName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oldStudents</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$firstPriorityCount</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/ScheduleEntry.html#method__construct">ScheduleEntry::__construct()</a></dt>
+						<dd>Αρχικοποιεί την δομή με τις σχετικές παραμέτρους.</dd>
+					</dl>
+			
+	</div>
+<a name="methodgetCurStudents" id="getCurStudents"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCurStudents</span> (line <span class="line-number">116</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Συνώνυμο του getNumStudents().</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/ScheduleEntryLab.html#methodgetNumStudents">ScheduleEntryLab::getNumStudents()</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getCurStudents
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetFirstPriorityCount" id="getFirstPriorityCount"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getFirstPriorityCount</span> (line <span class="line-number">134</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει τον αριθμό φοιτητών που έχουν δηλώσει το εργαστήριο σαν πρώτη  προτεραιότητα.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Ο αριθμός φοιτητών που έχουν δηλώσει το εργαστήριο σαν πρώτη  προτεραιότητα.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getFirstPriorityCount
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetlabID" id="getlabID"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getlabID</span> (line <span class="line-number">88</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει τον μοναδικό κωδικό του εργαστηριακού τμήματος. Αν  η εγγραφή δεν αφορά εργαστήριο τότε επιστρέφει null.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Ο μοναδικός κωδικός του τμήματος η null αν δεν αφορά  εργαστήριο.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">String</span>
+		<span class="method-name">
+			getlabID
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetLabName" id="getLabName"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getLabName</span> (line <span class="line-number">78</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει το όνομα του εργαστηριακού τμήματος.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Το όνομα του εργαστηριακού τμήματος.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">String</span>
+		<span class="method-name">
+			getLabName
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetMaxStudents" id="getMaxStudents"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getMaxStudents</span> (line <span class="line-number">124</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει τον μέγιστο αριθμό φοιτητών που επιτρέπεται σε αυτό το τμήμα.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Ο μέγιστος αριθμός φοιτητών που επιτρέπεται σε αυτό το τμήμα.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getMaxStudents
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetNumStudents" id="getNumStudents"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getNumStudents</span> (line <span class="line-number">108</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει τον τρέχων αριθμό φοιτητών που έχουν κληρωθεί ή γραφτεί σε  αυτό το τμήμα.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Ο τρέχων αριθμός φοιτητών που έχουν κληρωθεί ή γραφτεί.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getNumStudents
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisallocatedToThis" id="isallocatedToThis"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isallocatedToThis</span> (line <span class="line-number">99</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Ελέγχει αν ο τρέχων χρήστης (που πρέπει να είναι φοιτητής) έχει κληρωθεί  στο συγκεκριμένο εργαστηριακό τμήμα. Αν ο φοιτητής δεν έχει κληρωθεί σε  αυτό το τμήμα ή αν η εγγραφή δεν αφορά εργαστήριο επιστρέφει false.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει true αν ο φοιτητής έχει κληρωθεί σε αυτό το  τμήμα ή false αν όχι.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			isallocatedToThis
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisForOldStudents" id="isForOldStudents"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isForOldStudents</span> (line <span class="line-number">143</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει αν το τμήμα είναι για παλαιούς φοιτητές.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει 1 αν το τμήμα είναι για παλαιούς φοιτητές ή 0  αν δεν είναι.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">String</span>
+		<span class="method-name">
+			isForOldStudents
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../default/ScheduleEntry.html">ScheduleEntry</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../default/ScheduleEntry.html#method__construct">ScheduleEntry::__construct()</a></span><br>
+													<span class="method-name"><a href="../default/ScheduleEntry.html#methodgetColor">ScheduleEntry::getColor()</a></span><br>
+													<span class="method-name"><a href="../default/ScheduleEntry.html#methodgetcourseID">ScheduleEntry::getcourseID()</a></span><br>
+													<span class="method-name"><a href="../default/ScheduleEntry.html#methodgetCourseName">ScheduleEntry::getCourseName()</a></span><br>
+													<span class="method-name"><a href="../default/ScheduleEntry.html#methodgetcourseType">ScheduleEntry::getcourseType()</a></span><br>
+													<span class="method-name"><a href="../default/ScheduleEntry.html#methodgetTeacherID">ScheduleEntry::getTeacherID()</a></span><br>
+													<span class="method-name"><a href="../default/ScheduleEntry.html#methodgetTeacherName">ScheduleEntry::getTeacherName()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sat, 09 Apr 2011 17:10:22 +0300 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

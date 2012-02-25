@@ -1,0 +1,7 @@
+/* Simple Shadow by James Morris of http://mywebresource.com/ */
+body {font-size:12px; font-family:Arial, Helvetica, sans-serif; background:#fff; color:#000;}
+#sitename {font-size:2em;}
+#pagetitle {font-size:1.5em; margin:0 0 1em 0;}
+#navigation {display:none;}
+#mainbody {width:650px;}
+#footer {display:none;}

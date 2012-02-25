@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class ArrayScheduleGenerator</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class ArrayScheduleGenerator</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Αντλεί πληροφορίες από το ωρολόγιο πρόγραμμα, φιλτραρισμένες κατάλληλα, και  τις παραθέτει σε μορφή είτε τρισδιάστατου πίνακα, για εύκολη αποτύπωση σε  πίνακες τύπου ωρολογίου προγράμματος, είτε σε μορφή δισδιάστατου πίνακα, για  εύκολη ταξινόμηση.</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Dimosthenis Nikoudis &lt;<a href="mailto:dnna@dnna.gr">dnna@dnna.gr</a>&gt;</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_ArrayScheduleGenerator.php.html">/ArrayScheduleGenerator.php</a> (line <span class="field">10</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																				<div class="method-definition">
+					static 						<span class="method-result">int</span>
+										<a href="#cmp_1dArrayBycourseName" title="details" class="method-name">cmp_1dArrayBycourseName</a>
+											(<span class="var-type"><a href="../default/ScheduleEntry.html">ScheduleEntry</a></span>&nbsp;<span class="var-name">$a</span>, <span class="var-type"><a href="../default/ScheduleEntry.html">ScheduleEntry</a></span>&nbsp;<span class="var-name">$b</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">int</span>
+										<a href="#cmp_combinedIDs" title="details" class="method-name">cmp_combinedIDs</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$a</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$b</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">int</span>
+										<a href="#cmp_courseIDs" title="details" class="method-name">cmp_courseIDs</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$a</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$b</span>)
+									</div>
+																																
+												<div class="method-definition">
+											<span class="method-result">ArrayScheduleGenerator</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											([<span class="var-type">String</span>&nbsp;<span class="var-name">$showOnlyForAM</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$showOnlyForcourseID</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$showOnlyForTypicalTaughtSemester</span> = <span class="var-default">null</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$filterTheoriesBasedOnCourseID</span> = <span class="var-default">true</span>])
+									</div>
+																																								<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#get1dArray" title="details" class="method-name">get1dArray</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#get1dArraySorted" title="details" class="method-name">get1dArraySorted</a>
+											([<span class="var-type">String</span>&nbsp;<span class="var-name">$by</span> = <span class="var-default">'courseID'</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#get3dArray" title="details" class="method-name">get3dArray</a>
+										()
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodcmp_1dArrayBycourseName" id="cmp_1dArrayBycourseName"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method cmp_1dArrayBycourseName</span> (line <span class="line-number">219</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Συγκρίνει ονόματα αντικειμένων τύπου ScheduleEntry τα οποία βρίσκονται  μέσα σε έναν δισδιάστατο πίνακα και βρίσκει πιο είναι μεγαλύτερο.</p>
+<p class="description"><p>Θεωρείται ότι τα αντικείμενα βρίσκονται στις θέσεις με δείκτη  &quot;ScheduleEntry&quot;. Αν τα courseName είναι ίδια και πρόκειται για  εργαστηριακά τμήματα τότε συγκρίνονται τα labName ώστε να ταξινομηθούν  αλφαβητικά.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει 0 αν είναι ίσα, +1 αν το a είναι μεγαλύτερο από το  b, -1 αν το b είναι μεγαλύτερο από το a.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">int</span>
+		<span class="method-name">
+			cmp_1dArrayBycourseName
+		</span>
+					(<span class="var-type"><a href="../default/ScheduleEntry.html">ScheduleEntry</a></span>&nbsp;<span class="var-name">$a</span>, <span class="var-type"><a href="../default/ScheduleEntry.html">ScheduleEntry</a></span>&nbsp;<span class="var-name">$b</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../default/ScheduleEntry.html">ScheduleEntry</a></span>
+				<span class="var-name">$a</span>			</li>
+					<li>
+				<span class="var-type"><a href="../default/ScheduleEntry.html">ScheduleEntry</a></span>
+				<span class="var-name">$b</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcmp_combinedIDs" id="cmp_combinedIDs"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method cmp_combinedIDs</span> (line <span class="line-number">260</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Συγκρίνει IDs τμημάτων που βρίσκονται σε έναν δισδιάστατο πίνακα  $lessons[$x]['labID'] και βρίσκει πιο είναι μεγαλύτερο.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει 0 αν είναι ίσα, +1 αν το a είναι μεγαλύτερο από το  b, -1 αν το b είναι μεγαλύτερο από το a.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">int</span>
+		<span class="method-name">
+			cmp_combinedIDs
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$a</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$b</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$a</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$b</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcmp_courseIDs" id="cmp_courseIDs"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method cmp_courseIDs</span> (line <span class="line-number">246</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Συγκρίνει IDs μαθημάτων που βρίσκονται σε έναν δισδιάστατο πίνακα  $lessons[$x]['courseID'] και βρίσκει πιο είναι μεγαλύτερο.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Επιστρέφει 0 αν είναι ίσα, +1 αν το a είναι μεγαλύτερο από το  b, -1 αν το b είναι μεγαλύτερο από το a.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">int</span>
+		<span class="method-name">
+			cmp_courseIDs
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$a</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$b</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$a</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$b</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">68</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Αρχικοποιεί το αντικείμενο με τα φίλτρα που ορίζονται στις  παραμέτρους.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">ArrayScheduleGenerator</span>
+		<span class="method-name">
+			__construct
+		</span>
+					([<span class="var-type">String</span>&nbsp;<span class="var-name">$showOnlyForAM</span> = <span class="var-default">null</span>], [<span class="var-type">String</span>&nbsp;<span class="var-name">$showOnlyForcourseID</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$showOnlyForTypicalTaughtSemester</span> = <span class="var-default">null</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$filterTheoriesBasedOnCourseID</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$showOnlyForAM</span><span class="var-description">: Επιστρέφει μόνο τις εγγραφές στις οποίες  είναι γραμμένος ο φοιτητής με τον συγκεκριμένο αριθμό μητρώου.</span>			</li>
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$showOnlyForcourseID</span><span class="var-description">: Επιστρέφει μόνο τις εγγραφές που  ανήκουν στο μάθημα με τον συγκεκριμένο κωδικό.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$showOnlyForTypicalTaughtSemester</span><span class="var-description">: Επιστρέφει μόνο τις  εγγραφές των οποίων τα μαθήματα διδάσκονται στο συγκεκριμένο εξάμηνο.</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$filterTheoriesBasedOnCourseID</span><span class="var-description">: Δείχνει αν θα πρέπει να  φιλτράρονται και οι θεωρίες με βάση το courseID, όπως τα εργαστήρια.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodget1dArray" id="get1dArray"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">get1dArray</span> (line <span class="line-number">163</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει έναν δισδιάστατο πίνακα με τα εξής χαρακτηριστικά: <ul><li>Η πρώτη διάσταση είναι απλά αριθμιτικοί δείκτες χωρίς κάποια ιδιαίτερη</li></ul> σημασία.</p>
+<p class="description"><p><ul><li>Η δεύτερη διάσταση περιέχει 3 associative κλειδιά:</li></ul> <ol><li>ScheduleEntry: Περιέχει ένα αντικείμενο τύπου ScheduleEntry</li><li>day: Το όνομα της ημέρας που διδάσκεται το μάθημα.</li><li>time: Έχει τη μορφή &quot;Ώρα Έναρξης-Ώρα Λήξης&quot; και αφορά αυτά που λέει.</li></ol></p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Δισδιάστατο πίνακα με ώρες, ημέρες και εγγραφές τύπου  ScheduleEntry.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			get1dArray
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodget1dArraySorted" id="get1dArraySorted"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">get1dArraySorted</span> (line <span class="line-number">201</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">return:</span> Δισδιάστατο ταξινομημένο πίνακα με ώρες, ημέρες και  εγγραφές τύπου ScheduleEntry.</li>
+				<li><span class="field">see:</span> <a href="../default/ArrayScheduleGenerator.html#methodget1dArray">ArrayScheduleGenerator::get1dArray()</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			get1dArraySorted
+		</span>
+					([<span class="var-type">String</span>&nbsp;<span class="var-name">$by</span> = <span class="var-default">'courseID'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$by</span><span class="var-description">: Η παράμετρος με την οποία θα γίνει ταξινόμηση. Αν δεν  οριστεί τότε γίνεται ταξινόμηση με βάση τα courseID των μαθημάτων.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodget3dArray" id="get3dArray"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">get3dArray</span> (line <span class="line-number">113</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Επιστρέφει έναν τρισδιάστατο πίνακα με τις διαστάσεις να αναπαριστούν τις  ώρες, τις ημέρες και τις εγγραφές. Οι εγγραφές έχουν τύπο ScheduleEntry  και περιέχουν πληροφορίες για τα μαθήματα ή τα τμήματα.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Τρισδιάστατος πίνακας με ώρες, ημέρες και εγγραφές τύπου  ScheduleEntry.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			get3dArray
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sat, 09 Apr 2011 17:10:20 +0300 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>
